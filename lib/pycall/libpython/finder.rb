@@ -20,8 +20,8 @@ module PyCall
 
       class << self
         DEFAULT_PYTHON = [
-          -'python3',
-          -'python',
+          'python3',
+          'python',
         ].freeze
 
         def find_python_config(python = nil)
